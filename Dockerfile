@@ -1,4 +1,4 @@
-# docker run -v /Users/dotMR/repository/race-monitor:/tmp dotmr/race-monitor
+# docker run -v /Users/dotMR/repository/race-monitor:/tmp --device /dev/tty.usbserial-A600e0BZ  dotmr/race-monitor
 
 # Note: To list ports (on mac)
 #   ls /dev/tty.*
